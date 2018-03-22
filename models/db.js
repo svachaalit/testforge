@@ -2,7 +2,8 @@
 var mongoose = require( 'mongoose' ); 
 
 // Build the connection string 
-var dbURI = 'mongodb://admin:admin@ds249798.mlab.com:49798/testforge'; 
+var dbURI = 'mongodb://localhost:27017/testforge';
+//TODO add a fuction to read this from local envs
 
 // Create the database connection 
 mongoose.connect(dbURI); 

@@ -12,15 +12,16 @@ language.findOne(null, function (err, lang) {
             name: 'A simple action collection',
             type: 'actioncollection',
             actioncollection: [{
-                language: act,
+                action: act,
                 orderId: 1,
                 description: 'This is description 1'
             },
             {
-                language: act,
+                action: act,
                 orderId: 2,
                 description: 'This is description 2'
             }]
+            
         })
         
         a.save(function (err, p) {

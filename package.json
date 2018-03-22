@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/svachaalit/testforge#readme",
   "dependencies": {
+    "lodash": "^4.17.5",
     "mongoose": "^5.0.7"
   }
 }
